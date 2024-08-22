@@ -9,7 +9,7 @@ class ScaffoldYapisi extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Scaffold Dersi"),
       ),
-      body: Center(child: const Text("Merhaba Dunya")),
+      body: const Center(child: Text("Merhaba Dunya")),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: const Icon(Icons.add),
