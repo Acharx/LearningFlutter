@@ -1,4 +1,5 @@
-import 'package:ders1_learn_flutter/scaffold_yapisi.dart';
+//import 'package:ders1_learn_flutter/scaffold_yapisi.dart';
+import 'package:ders1_learn_flutter/text_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,10 +12,11 @@ class Anasayfa extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var deepPurple = Colors.deepPurple;
     return MaterialApp(
       title: 'Flutter Dersleri 2024',
-      theme: ThemeData(primaryColor: Colors.deepPurple),
-      home: const ScaffoldYapisi(),
+      theme: ThemeData(primaryColor: deepPurple),
+      home: const TextWidget(),
     );
   }
 }
